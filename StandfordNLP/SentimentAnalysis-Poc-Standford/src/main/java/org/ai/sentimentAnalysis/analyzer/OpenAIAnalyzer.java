@@ -10,7 +10,6 @@ public class OpenAIAnalyzer {
 
     public static void estimatingSentiment(List<String> text) {
         String token = System.getenv("OPENAI_TOKEN");
-        token = "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";
         OpenAiService service = new OpenAiService(token);
 
         System.out.println("\nCreating completion...");
